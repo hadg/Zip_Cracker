@@ -1,1 +1,16 @@
-# Zip_Cracker<br />A simple zip file cracker<br /><br />Usage: zipcracker.py [options]<br /><br />Options:<br />  -h, --help  show this help message and exit<br />  -f ZNAME    specify zip file<br />  -d DNAME    specify dictitonary file<br />  --max=MAX   password maximum length<br />  --min=MIN   password minimum length
+<h1 id="zipcracker">Zip_Cracker</h1>
+
+<p>A simple zip file cracker</p>
+
+<hr>
+
+<h2 id="usage">Usage</h2>
+
+<pre><code>Usage: zipcracker.py [options]
+Options:
+  -h, --help  show this help message and exit
+  -f ZNAME    specify zip file
+  -d DNAME    specify dictitonary file
+  --max=MAX   password maximum length
+  --min=MIN   password minimum length
+</code></pre>
