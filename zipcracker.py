@@ -32,7 +32,7 @@ def extractfile(zfile,password):
     try:
         zfile.extractall(pwd=password)
         print "\nFound Password:"+password
-        exit(0)
+        sys.exit(0)
     except Exception:
         pass
 def main():
@@ -46,7 +46,7 @@ def main():
         options.dname="d:/dict.txt"
     if(options.zname==None and (options.max==None or options.min==None)):
         print parser.usage
-        exit(0)
+        sys.exit(0)
     elif(options.zname!=None):#crack
         print options
         zname=options.zname
